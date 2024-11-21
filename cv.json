@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Daniele Infante",
+    "label": "Chemical Engineering",
     "image": "/me_avatar.jpg",
     "email": "john.doe@example.com",
     "phone": "+1 555-555-5555",
@@ -11,9 +11,9 @@
     "location": {
       "address": "",
       "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "city": "Naples",
+      "countryCode": "IT",
+      "region": "Italy"
     },
     "profiles": [
       {
@@ -119,12 +119,12 @@
   ],
   "education": [
     {
-      "institution": "State University",
+      "institution": "Federico II university of Naples",
       "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
+      "area": "Product Engineering",
+      "studyType": "Master degree",
+      "startDate": "2022-09-01",
+      "endDate": null,
       "score": "3.8",
       "courses": [
         "CS101 - Introduction to Computer Science",
@@ -132,12 +132,12 @@
       ]
     },
     {
-      "institution": "Tech Institute",
+      "institution": "Federico II university of Naples",
       "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
+      "area": "Chemical Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2018-09-01",
+      "endDate": "2022-11-02",
       "score": "3.9",
       "courses": [
         "SE201 - Advanced Software Development",
@@ -145,12 +145,12 @@
       ]
     },
     {
-      "institution": "City College",
+      "institution": "Salvatore Cantone",
       "url": "https://citycollege.edu",
       "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
+      "studyType": "City College",
+      "startDate": "2013-01-01",
+      "endDate": "2018-12-01",
       "score": "3.7",
       "courses": [
         "IT101 - Networking Fundamentals",
@@ -294,12 +294,12 @@
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Italian",
       "fluency": "Native speaker"
     },
     {
-      "language": "Spanish",
-      "fluency": "Intermediate"
+      "language": "English",
+      "fluency": "C1"
     }
   ],
   "interests": [
@@ -320,7 +320,7 @@
   "projects": [
     {
       "name": "Personal Portfolio",
-      "isActive": false,
+      "isActive": true,
       "description": "A personal portfolio website to showcase my projects and skills.",
       "highlights": [
         "Built with React and Tailwind CSS",
