@@ -6,7 +6,7 @@
     "email": "john.doe@example.com",
     "phone": "+1 555-555-5555",
     "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "summary": "Chemical engineering student with a focus on sustainability, machine learning, and computational methods. Energized by technology and innovation, I dive into areas like home automation, AI, and open-source software, combining hands-on self-hosting experience with a drive for continuous learning. Beyond tech, I’m committed to personal growth through interests in personal finance, mindfulness, and self-improvement, all fueling a balanced, resilient approach to challenges.",
     "theme": "default",
     "location": {
       "address": "",
@@ -35,72 +35,103 @@
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
+      "name": "NaLUG (Napoli Linux User Group)",
+      "position": "Member and Speaker",
+      "location_type": "Remote",
+      "location": "Naples, Italy",
+      "url": "https://www.nalug.it/",
       "startDate": "2024-01-01",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "summary": "Engaged in speaking at Linux Day 2024 and contributing to the group's activities.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Presented on open-source software and technology trends."
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Organized and participated in technical discussions within the group.",
+        "Spoke at Linux Day 2024, sharing insights on machine learning and AI applications."
       ],
       "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+        "Enhanced community understanding of open-source software through presentations."
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
+        "Linux",
+        "Open-Source Software",
+        "Public Speaking"
       ]
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
+      "name": "A.R.S. Cooperative Association",
+      "position": "Civil Service Volunteer",
+      "location_type": "On site",
+      "location": "Naples, Italy",
+      "url": null,
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-31",
+      "summary": "Provided civil service support and volunteered in various community events.",
       "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
+        "Assisted in organizing and participating in community service projects."
       ],
       "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
+        "Supported civil service operations and provided assistance during events.",
+        "Collaborated with other volunteers to ensure smooth event execution."
       ],
       "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
+        "Contributed to the success of multiple community service initiatives."
       ],
       "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
+        "Teamwork",
+        "Community Service",
+        "Event Coordination"
       ]
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "name": "Olympiads of Culture and Talent",
+      "position": "Member and Event Collaborator",
+      "location_type": "On site",
+      "location": "Naples, Italy",
+      "url": null,
+      "startDate": "2019-01-01",
+      "endDate": "2021-12-31",
+      "summary": "Competed in and organized various cultural and talent olympiads.",
       "highlights": [
-        "Completed several client projects successfully"
+        "Achieved success in multiple competitions."
+      ],
+      "responsibilities": [
+        "Participated in mathematics, physics, culture, and talent olympiads.",
+        "Assisted in organizing events and promoting participation among members."
+      ],
+      "achievements": [
+        "Gained valuable experience in event organization and competition management."
       ],
       "skills": [
-        "HTML",
-        "CSS"
+        "Organizational Skills",
+        "Event Coordination",
+        "Competitive Spirit"
+      ]
+    },
+    {
+      "name": "Publipeas",
+      "position": "Steward Promoter and Event Collaborator",
+      "location_type": "On site",
+      "location": "Naples, Italy",
+      "url": null,
+      "startDate": "2019-06-01",
+      "endDate": "2019-12-31",
+      "summary": "Promoted and participated in various events organized by Publipeas.",
+      "highlights": [
+        "Helped boost event attendance and engagement."
+      ],
+      "responsibilities": [
+        "Promoted events through social media and community outreach.",
+        "Assisted in the execution of events, ensuring smooth operations."
+      ],
+      "achievements": [
+        "Made significant contributions to Publipeas' event success."
+      ],
+      "skills": [
+        "Community Outreach",
+        "Event Promotion",
+        "Teamwork"
       ]
     }
   ],
@@ -119,20 +150,19 @@
   ],
   "education": [
     {
-      "institution": "Federico II university of Naples",
+      "institution": "Product Chemical Engineering @ Federico II, Naples, Italy",
       "url": "https://stateuniversity.edu",
-      "area": "Product Engineering",
-      "studyType": "Master degree",
+      "area": "Product Chemical Engineering",
+      "studyType": "Master",
       "startDate": "2022-09-01",
       "endDate": null,
       "score": "3.8",
       "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
+        "Machine Learning for Product and Process Engineering"
       ]
     },
     {
-      "institution": "Federico II university of Naples",
+      "institution": "Chemical Engineering @ Federico II, Naples, Italy",
       "url": "https://techinstitute.edu",
       "area": "Chemical Engineering",
       "studyType": "Bachelor",
@@ -146,8 +176,8 @@
     },
     {
       "institution": "Salvatore Cantone",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
+      "url": null,
+      "area": "Liceo Scientifico",
       "studyType": "City College",
       "startDate": "2013-01-01",
       "endDate": "2018-12-01",
@@ -168,87 +198,66 @@
   ],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
+      "name": "Python",
+      "level": "Advanced",
       "keywords": [
-        "Design",
-        "UI"
+        "Data Analysis",
+        "Automation",
+        "Machine Learning"
       ]
     },
     {
-      "name": "Gitlab",
+      "name": "Docker",
       "level": "Intermediate",
       "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
+        "Containerization",
+        "Deployment",
+        "Microservices"
       ]
     },
     {
-      "name": "HTML",
-      "level": "Intermediate",
+      "name": "C++",
+      "level": "Advanced",
       "keywords": [
-        "Web Development",
-        "Frontend"
+        "System Programming",
+        "Performance Optimization",
+        "Software Development"
       ]
     },
     {
-      "name": "CSS",
+      "name": "MATLAB",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
+        "Simulation",
+        "Data Visualization",
+        "Algorithm Development"
       ]
     },
     {
-      "name": "JavaScript",
+      "name": "Aspen",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
+        "Process Simulation",
+        "Chemical Engineering",
+        "Modeling"
       ]
     },
     {
-      "name": "Tailwind",
+      "name": "COMSOL",
       "level": "Intermediate",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
+        "Finite Element Analysis",
+        "Multiphysics Simulations",
+        "Engineering Analysis"
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Intermediate",
+      "name": "Linux",
+      "level": "Advanced",
       "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
+        "System Administration",
+        "Command Line",
+        "Open-Source"
       ]
     },
     {
@@ -264,31 +273,9 @@
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
-        "Version Control",
+        "Code Hosting",
         "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
+        "Source Code"
       ]
     }
   ],
@@ -362,3 +349,5 @@
     }
   ]
 }
+
+
