@@ -19,6 +19,12 @@ import Flutter from "@/icons/flutter.astro";
 import Figma from "@/icons/Figma.astro";
 import Gitlab from "@/icons/Gitlab.astro";
 import Python from "@/icons/Python.astro";
+import Linux from "@/icons/Linux.astro";
+import Docker from "@/icons/Docker.astro";
+import Bash from "@/icons/Bash.astro";
+import Cpp from "@/icons/Cpp.astro";
+import Proxmox from "@/icons/Proxmox.astro";
+import MATLAB from "@/icons/MATLAB.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -38,23 +44,51 @@ const SKILLS_ICONS: Record<string, any> = {
 	Flutter,
 	Figma,
 	Gitlab,
-	Python
+	Python,
+	Linux,
+	Docker,
+	Bash,
+	Cpp,
+	Proxmox,
+	MATLAB,
+};
+
+const SKILLS_NAME_MAP: Record<string, string> = {
+	"Python (ML libraries, CNNs)": "Python",
+	"Bash scripting": "Bash",
+	"Linux administration": "Linux",
+	"C++": "Cpp",
+	"Next.js": "Next",
+	"Proxmox virtualization": "Proxmox",
+	"MATLAB": "MATLAB",
 };
 ---
 
 <Section className={Astro.props.className} title="Skills">
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
+	<div class="flex flex-col gap-8">
 		{
-			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
-				const Icon = SKILLS_ICONS[iconName];
+			["IT & DevOps", "Data & Programming", "Engineering Software", "Soft Skills & Certifications"].map((category) => {
+				const categorySkills = skills.filter((skill) => skill.keywords.includes(category));
+				if (categorySkills.length === 0) return null;
 
 				return (
-					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{Icon && <Icon />} <span>{name}</span>
-					</li>
+					<div class="flex flex-col gap-3">
+						<h3 class="text-sm font-bold text-skin-base">{category}</h3>
+						<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-4 [&>li>svg]:size-5 [&>li]:text-sm">
+							{categorySkills.map(({ name }) => {
+								const iconName = SKILLS_NAME_MAP[name] || name;
+								const Icon = SKILLS_ICONS[iconName];
+
+								return (
+									<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+										{Icon && <Icon />} <span>{name}</span>
+									</li>
+								);
+							})}
+						</ul>
+					</div>
 				);
 			})
 		}
-	</ul>
+	</div>
 </Section>

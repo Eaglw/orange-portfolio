@@ -16,20 +16,25 @@ const { name, label } = basics;
 ---
 
 <Layout title={`${name} Portafolio - ${label}`}>
-	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
-		<div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
-			<Hero />
+	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-12 md:p-16 xl:gap-24 print:max-w-none print:grid print:grid-cols-12 print:p-12 print:gap-10">
+		<div class="space-y-6 md:col-span-5 print:col-span-5">
+			<Hero hideInfo={true} />
 			<About />
 			<ThemeSwitch />
 		</div>
-		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-			<Experience className="print:col-span-3" /> <!-- Moved above Education -->
-			<Education className="order-first" />
-			<Projects className="print:hidden" />
-			<Skills className="print:hidden" />
-			
+		<div class="space-y-12 md:col-span-7 print:col-span-7">
+			<Hero hidePhoto={true} />
+			<Education />
 		</div>
-		<Tail />
+		<div class="space-y-12 md:col-span-12 print:col-span-12 print:flex print:flex-col print:gap-10 print:space-y-0">
+			<Projects title="Engineering Projects" category="Engineering" />
+			<Projects title="Tech Projects" category="Tech" />
+			<Skills />
+			<Experience title="Experience & Soft Skills" />
+		</div>
+		<div class="md:col-span-12 print:col-span-12">
+			<Tail />
+		</div>
 	</main>
 
 	<KeyboardManager />
@@ -37,8 +42,8 @@ const { name, label } = basics;
 
 <style>
 	@page {
-		size: auto;
-		margin: 0mm;
+		size: A4;
+		margin: 15mm;
 	}
 	main {
 		margin: auto;

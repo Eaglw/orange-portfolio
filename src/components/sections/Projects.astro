@@ -4,12 +4,18 @@ import Arrow from "@/icons/Arrow.astro";
 import Section from "../Section.astro";
 
 import { projects } from "@cv";
+
+const { className, title, category } = Astro.props;
+
+const filteredProjects = category 
+	? projects.filter(project => project.category === category)
+	: projects;
 ---
 
-<Section className={Astro.props.className} title="Projects">
-	<div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
+<Section className={className} title={title || "Projects"}>
+	<div class="grid grid-cols-1 gap-4 print:flex print:flex-col">
 		{
-			projects.map(({ url, description, highlights, name, isActive, github }) => {
+			filteredProjects.map(({ url, description, highlights, name, isActive, github }) => {
 				return (
 					<div role="contentinfo" class="grid-span-1 ring-skin-muted relative flex flex-col rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1">
 						<div class="flex items-center justify-between space-x-[10px]">

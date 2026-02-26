@@ -6,9 +6,6 @@ const { summary } = basics;
 ---
 
 <Section title="About">
-	<p>
-		<strong>per modificare qui in grassetto devo toccare diretto il file about.astro</strong>
-		{summary}
-		
+	<p class="text-sm text-skin-base" set:html={summary.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')}>
 	</p>
 </Section>

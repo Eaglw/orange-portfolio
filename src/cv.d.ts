@@ -23,6 +23,7 @@ interface Basics {
   summary: string;
   location: Location;
   profiles: Array<Profiles>;
+  theme?: string;
 }
 
 interface Location {
@@ -47,6 +48,11 @@ interface Work {
   endDate: DateStr | null;
   summary: string;
   highlights: Highlight;
+  responsibilities?: Array<string>;
+  achievements?: Array<string>;
+  skills?: Array<string>;
+  location?: string;
+  location_type?: string;
 }
 
 type DateStr = `${string}-${string}-${string}`;
@@ -95,7 +101,7 @@ interface Education {
   area: string;
   studyType: string;
   startDate: DateStr;
-  endDate: DateStr;
+  endDate: DateStr | null;
   score: string;
   courses: Array<string>;
 }
@@ -130,6 +136,7 @@ interface Projects {
   highlights: Highlight;
   url: string;
   github?: string;
+  category?: string;
 }
 
 interface Interests {
