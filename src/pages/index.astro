@@ -18,12 +18,17 @@ const { name, label } = basics;
 <Layout title={`${name} Portafolio - ${label}`}>
 	<main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-12 md:p-16 xl:gap-24 print:max-w-none print:grid print:grid-cols-12 print:p-12 print:gap-10">
 		<div class="space-y-6 md:col-span-5 print:col-span-5">
+			<div class="md:hidden print:hidden">
+				<Hero hidePhoto={true} />
+			</div>
 			<Hero hideInfo={true} />
 			<About />
 			<ThemeSwitch />
 		</div>
 		<div class="space-y-12 md:col-span-7 print:col-span-7">
-			<Hero hidePhoto={true} />
+			<div class="hidden md:block print:block">
+				<Hero hidePhoto={true} />
+			</div>
 			<Education />
 		</div>
 		<div class="space-y-12 md:col-span-12 print:col-span-12 print:flex print:flex-col print:gap-10 print:space-y-0">

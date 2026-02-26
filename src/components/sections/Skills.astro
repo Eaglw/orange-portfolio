@@ -25,6 +25,8 @@ import Bash from "@/icons/Bash.astro";
 import Cpp from "@/icons/Cpp.astro";
 import Proxmox from "@/icons/Proxmox.astro";
 import MATLAB from "@/icons/MATLAB.astro";
+import n8n from "@/icons/n8n.astro";
+import networking from "@/icons/networking.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
 	HTML,
@@ -51,6 +53,8 @@ const SKILLS_ICONS: Record<string, any> = {
 	Cpp,
 	Proxmox,
 	MATLAB,
+	n8n,
+	networking,
 };
 
 const SKILLS_NAME_MAP: Record<string, string> = {
@@ -61,13 +65,15 @@ const SKILLS_NAME_MAP: Record<string, string> = {
 	"Next.js": "Next",
 	"Proxmox virtualization": "Proxmox",
 	"MATLAB": "MATLAB",
+	"n8n automation": "n8n",
+	"Networking": "networking",
 };
 ---
 
 <Section className={Astro.props.className} title="Skills">
 	<div class="flex flex-col gap-8">
 		{
-			["IT & DevOps", "Data & Programming", "Engineering Software", "Soft Skills & Certifications"].map((category) => {
+			["Soft Skills & Certifications", "Engineering Software", "IT & DevOps", "Data & Programming"].map((category) => {
 				const categorySkills = skills.filter((skill) => skill.keywords.includes(category));
 				if (categorySkills.length === 0) return null;
 

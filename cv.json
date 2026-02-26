@@ -143,6 +143,46 @@
   ],
   "skills": [
     {
+      "name": "Advanced English (C1)",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "Excel and Office",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "Critical thinking",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "Cross-disciplinary problem solving",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "Strong resilience and discipline (8 years Martial Arts)",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "OpenFOAM (CFD)",
+      "level": "Advanced",
+      "keywords": ["Engineering Software"]
+    },
+    {
+      "name": "Gmsh",
+      "level": "Advanced",
+      "keywords": ["Engineering Software"]
+    },
+    {
+      "name": "Aspen Plus",
+      "level": "Advanced",
+      "keywords": ["Engineering Software"]
+    },
+    {
       "name": "Linux administration",
       "level": "Advanced",
       "keywords": ["IT & DevOps"]
@@ -196,67 +236,19 @@
       "name": "MATLAB",
       "level": "Advanced",
       "keywords": ["Data & Programming"]
-    },
-    {
-      "name": "OpenFOAM (CFD)",
-      "level": "Advanced",
-      "keywords": ["Engineering Software"]
-    },
-    {
-      "name": "Gmsh",
-      "level": "Advanced",
-      "keywords": ["Engineering Software"]
-    },
-    {
-      "name": "Aspen Plus",
-      "level": "Advanced",
-      "keywords": ["Engineering Software"]
-    },
-    {
-      "name": "Advanced English (C1)",
-      "level": "Advanced",
-      "keywords": ["Soft Skills & Certifications"]
-    },
-    {
-      "name": "Critical thinking",
-      "level": "Advanced",
-      "keywords": ["Soft Skills & Certifications"]
-    },
-    {
-      "name": "Cross-disciplinary problem solving",
-      "level": "Advanced",
-      "keywords": ["Soft Skills & Certifications"]
-    },
-    {
-      "name": "Strong resilience and discipline (8 years Martial Arts)",
-      "level": "Advanced",
-      "keywords": ["Soft Skills & Certifications"]
     }
   ],
   "projects": [
     {
-      "name": "Advanced IT Infrastructure & Automation (Homelab)",
+      "name": "Physics-Informed Neural Networks (PINNs) applied to Fluid Dynamics",
       "isActive": true,
-      "description": "Deployed and currently manage a private server environment using Proxmox on bare-metal (Ryzen 5), orchestrating various services via Docker instances.",
+      "description": "Bridging the gap between traditional CFD and Deep Learning for faster and reliable flow predictions.",
       "highlights": [
-        "Developed automated workflows using n8n, Python, and Bash scripting to monitor self-hosted services.",
-        "Implemented RSS feed handlers and centralized system notifications through a custom-built Discord hub."
+        "Implementation using Python and TensorFlow/PyTorch to satisfy Navier-Stokes equations within the neural network loss function."
       ],
       "url": "https://github.com/eaglw",
       "github": "https://github.com/eaglw",
-      "category": "Tech"
-    },
-    {
-      "name": "Machine Learning & Data Analysis",
-      "isActive": true,
-      "description": "Developed foundational and advanced models in Python for data pattern recognition and predictive analysis.",
-      "highlights": [
-        "Implementation of Convolutional Neural Networks (CNNs).",
-        "Advanced data visualization and statistical analysis of process data."
-      ],
-      "url": "https://github.com/eaglw",
-      "github": "https://github.com/eaglw",
-      "category": "Tech"
+      "category": "Engineering"
     },
     {
       "name": "Computational Engineering & CFD",
@@ -269,6 +261,30 @@
       "url": "https://github.com/eaglw",
       "github": "https://github.com/eaglw",
       "category": "Engineering"
+    },
+    {
+      "name": "Machine Learning & Data Analysis",
+      "isActive": true,
+      "description": "Developed foundational and advanced models in Python for data pattern recognition and predictive analysis.",
+      "highlights": [
+        "Implementation of Convolutional Neural Networks (CNNs).",
+        "Advanced data visualization and statistical analysis of process data."
+      ],
+      "url": "https://github.com/eaglw",
+      "github": "https://github.com/eaglw",
+      "category": "Engineering"
+    },
+    {
+      "name": "Advanced IT Infrastructure & Automation (Homelab)",
+      "isActive": true,
+      "description": "Deployed and currently manage a private server environment using Proxmox on bare-metal (Ryzen 5), orchestrating various services via Docker instances.",
+      "highlights": [
+        "Developed automated workflows using n8n, Python, and Bash scripting to monitor self-hosted services.",
+        "Implemented RSS feed handlers and centralized system notifications through a custom-built Discord hub."
+      ],
+      "url": "https://github.com/eaglw",
+      "github": "https://github.com/eaglw",
+      "category": "Tech"
     }
   ]
 }
