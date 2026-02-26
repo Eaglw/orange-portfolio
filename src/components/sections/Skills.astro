@@ -87,7 +87,14 @@ const SKILLS_NAME_MAP: Record<string, string> = {
 
 								return (
 									<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-										{Icon && <Icon />} <span>{name}</span>
+										{Icon ? (
+											<Icon />
+										) : (
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-50">
+												<circle cx="12" cy="12" r="3" fill="currentColor" />
+											</svg>
+										)}
+										<span>{name}</span>
 									</li>
 								);
 							})}
