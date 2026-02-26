@@ -19,7 +19,7 @@
       {
         "network": "LinkedIn",
         "username": "eaglw",
-        "url": "https://linkedin.com/in/eaglw"
+        "url": "https://www.linkedin.com/in/daniele-infante-37bb58196/?locale=en"
       },
       {
         "network": "GitHub",
@@ -37,16 +37,17 @@
       "url": "https://www.nalug.it/",
       "startDate": "2024-01-01",
       "endDate": null,
-      "summary": "Engaged in speaking at Linux Day 2024 and contributing to the group's activities.",
+      "summary": "Speaker at Linux Day 2024, presenting on Home Assistant and the accessibility of self-hosting for non-IT professionals.",
       "highlights": [
-        "Presented on open-source software and technology trends."
+        "Spoke about Home Assistant and the practical benefits of self-hosting for non-experts."
       ],
       "responsibilities": [
-        "Spoke at Linux Day 2024 as a member of NaLUG, sharing insights on machine learning, automation, and open-source infrastructure.",
-        "Organized and participated in technical discussions within the group."
+        "Delivered a talk at Linux Day 2024 on Home Assistant and self-hosting, demonstrating how advanced IT solutions are accessible even to non-technical professionals like chemical engineers.",
+        "Promoted the adoption of open-source automation tools for personal and professional efficiency.",
+        "Participated in technical discussions and community outreach within the Napoli Linux User Group."
       ],
       "achievements": [
-        "Enhanced community understanding of open-source software and homelab infrastructure through presentations."
+        "Empowered non-IT professionals to explore self-hosting and home automation through relatable technical storytelling."
       ],
       "skills": [
         "Linux",
@@ -172,6 +173,11 @@
       "level": "Advanced",
       "keywords": ["Engineering Software"]
     },
+     {
+      "name": "Comsol Multiphysics",
+      "level": "Advanced",
+      "keywords": ["Engineering Software"]
+    },
     {
       "name": "Gmsh",
       "level": "Advanced",
@@ -179,6 +185,11 @@
     },
     {
       "name": "Aspen Plus",
+      "level": "Advanced",
+      "keywords": ["Engineering Software"]
+    },
+     {
+      "name": "LAMMPS",
       "level": "Advanced",
       "keywords": ["Engineering Software"]
     },
