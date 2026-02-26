@@ -104,6 +104,7 @@ interface Education {
   endDate: DateStr | null;
   score: string;
   courses: Array<string>;
+  minor?: string;
 }
 
 interface Languages {

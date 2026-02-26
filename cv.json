@@ -37,7 +37,7 @@
       "url": "https://www.nalug.it/",
       "startDate": "2024-01-01",
       "endDate": null,
-      "summary": "Speaker at Linux Day 2024, presenting on Home Assistant and the accessibility of self-hosting for non-IT professionals.",
+      "summary": "Speaker at Linux Day 2024, presenting on **Home Assistant** and the accessibility of **self-hosting** for non-IT professionals.",
       "highlights": [
         "Spoke about Home Assistant and the practical benefits of self-hosting for non-experts."
       ],
@@ -104,6 +104,28 @@
         "Event Coordination",
         "Competitive Spirit"
       ]
+    },
+    {
+      "name": "Publipeas",
+      "position": "Steward Promoter and Event Collaborator",
+      "location_type": "On site",
+      "location": "Naples, Italy",
+      "url": null,
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-31",
+      "summary": "Promoter and event staff collaborator.",
+      "highlights": [
+        "Collaborated in event promotion and logistics."
+      ],
+      "responsibilities": [
+        "Assisted in promotional activities and event organization."
+      ],
+      "achievements": [],
+      "skills": [
+        "Communication",
+        "Teamwork",
+        "Promotion"
+      ]
     }
   ],
   "education": [
@@ -111,40 +133,48 @@
       "institution": "Federico II, Naples, Italy",
       "url": "https://www.unina.it",
       "area": "Product Chemical Engineering",
-      "studyType": "Master",
+      "studyType": "Master's Degree",
       "startDate": "2022-09-01",
       "endDate": null,
       "score": "",
       "courses": [
         "Machine Learning for Product and Process Engineering",
         "Computational Fluid Dynamics",
-        "Advanced Physical Modeling"
+        "Advanced Numerical Techniques for Chemical Simulations"
       ]
     },
     {
       "institution": "Federico II, Naples, Italy",
       "url": "https://www.unina.it",
       "area": "Chemical Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2018-09-01",
       "endDate": "2022-11-02",
       "score": "",
       "courses": []
     },
     {
-      "institution": "Salvatore Cantone",
+      "institution": "Salvatore Cantone, Pomigliano d'Arco, Italy",
       "url": null,
       "area": "Liceo Scientifico",
       "studyType": "High School",
       "startDate": "2013-09-01",
       "endDate": "2018-07-01",
-      "score": "",
-      "courses": []
+      "score": "100/100",
+      "courses": [
+        "Educational trip to CERN, Ginevra",
+        "Competed in Mathematics, Physics, Culture, and Talent Olympiads"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Advanced English (C1)",
+      "name": "Foundational knowledge in Machine Learning and AI",
+      "level": "Intermediate",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "English: Advanced C1",
       "level": "Advanced",
       "keywords": ["Soft Skills & Certifications"]
     },
@@ -154,12 +184,27 @@
       "keywords": ["Soft Skills & Certifications"]
     },
     {
+      "name": "Microsoft Office Suite",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "First Aid Course, Italian Red Cross Campus",
+      "level": "Certified",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
       "name": "Critical thinking",
       "level": "Advanced",
       "keywords": ["Soft Skills & Certifications"]
     },
     {
       "name": "Cross-disciplinary problem solving",
+      "level": "Advanced",
+      "keywords": ["Soft Skills & Certifications"]
+    },
+    {
+      "name": "Strong team player with excellent social skills",
       "level": "Advanced",
       "keywords": ["Soft Skills & Certifications"]
     },

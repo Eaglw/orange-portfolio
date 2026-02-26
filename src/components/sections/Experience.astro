@@ -35,6 +35,10 @@ const SKILLS_ICONS: Record<string, any> = {
   Kotlin,
   Flutter,
 }
+
+const formatBold = (text: string) => {
+	return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+};
 ---
 <Section className={Astro.props.className} title={Astro.props.title || "Experience"}>
   <ul class="flex flex-col">
@@ -80,10 +84,10 @@ const SKILLS_ICONS: Record<string, any> = {
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {Array.isArray(summary) ? (
                         summary.map(item => (
-                          <li>{item}</li>
+                          <li set:html={formatBold(item)}></li>
                         ))
                       ) : (
-                        <li>{summary}</li>
+                        <li set:html={formatBold(summary)}></li>
                       )}
                     </ul>
                   </div>
@@ -96,7 +100,7 @@ const SKILLS_ICONS: Record<string, any> = {
                     <h4>Responsibilities:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {responsibilities.map(responsibility => (
-                        <li>{responsibility}</li>
+                        <li set:html={formatBold(responsibility)}></li>
                       ))}
                     </ul>
                   </div>
@@ -107,7 +111,7 @@ const SKILLS_ICONS: Record<string, any> = {
                     <h4>Achievements:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
                       {achievements.map(achievement => (
-                        <li>{achievement}</li>
+                        <li set:html={formatBold(achievement)}></li>
                       ))}
                     </ul>
                   </div>
