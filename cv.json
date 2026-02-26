@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Daniele Infante",
-    "label": "Chemical Engineering",
+    "label": "Chemical Engineer",
     "image": "/me_avatar.jpg",
     "email": "eaglw99@gmail.com",
     "phone": "+39 3311210249",
@@ -235,16 +235,28 @@
   ],
   "projects": [
     {
-      "name": "Thesis: Physics-Informed Neural Networks (PINNs) in Fluid Dynamics",
+      "name": "Advanced IT Infrastructure & Automation (Homelab)",
       "isActive": true,
-      "description": "Research and implementation of Physics-Informed Neural Networks to solve complex fluid dynamics problems by embedding physical laws into deep learning architectures.",
+      "description": "Deployed and currently manage a private server environment using Proxmox on bare-metal (Ryzen 5), orchestrating various services via Docker instances.",
       "highlights": [
-        "Bridging the gap between traditional CFD and Deep Learning for faster and reliable flow predictions.",
-        "Implementation using Python and TensorFlow/PyTorch to satisfy Navier-Stokes equations within the neural network loss function."
+        "Developed automated workflows using n8n, Python, and Bash scripting to monitor self-hosted services.",
+        "Implemented RSS feed handlers and centralized system notifications through a custom-built Discord hub."
       ],
       "url": "https://github.com/eaglw",
       "github": "https://github.com/eaglw",
-      "category": "Engineering"
+      "category": "Tech"
+    },
+    {
+      "name": "Machine Learning & Data Analysis",
+      "isActive": true,
+      "description": "Developed foundational and advanced models in Python for data pattern recognition and predictive analysis.",
+      "highlights": [
+        "Implementation of Convolutional Neural Networks (CNNs).",
+        "Advanced data visualization and statistical analysis of process data."
+      ],
+      "url": "https://github.com/eaglw",
+      "github": "https://github.com/eaglw",
+      "category": "Tech"
     },
     {
       "name": "Computational Engineering & CFD",
@@ -257,30 +269,6 @@
       "url": "https://github.com/eaglw",
       "github": "https://github.com/eaglw",
       "category": "Engineering"
-    },
-    {
-      "name": "Machine Learning & Data Analysis",
-      "isActive": true,
-      "description": "Developed foundational and advanced models in Python for data pattern recognition and predictive analysis.",
-      "highlights": [
-        "Implementation of Convolutional Neural Networks (CNNs).",
-        "Advanced data visualization and statistical analysis of process data."
-      ],
-      "url": "https://github.com/eaglw",
-      "github": "https://github.com/eaglw",
-      "category": "Engineering"
-    },
-    {
-      "name": "Advanced IT Infrastructure & Automation (Homelab)",
-      "isActive": true,
-      "description": "Deployed and currently manage a private server environment using Proxmox on bare-metal (Ryzen 5), orchestrating various services via Docker instances.",
-      "highlights": [
-        "Developed automated workflows using n8n, Python, and Bash scripting to monitor self-hosted services.",
-        "Implemented RSS feed handlers and centralized system notifications through a custom-built Discord hub."
-      ],
-      "url": "https://github.com/eaglw",
-      "github": "https://github.com/eaglw",
-      "category": "Tech"
     }
   ]
 }
